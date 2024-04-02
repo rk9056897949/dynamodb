@@ -1,0 +1,27 @@
+### get all users
+GET http://localhost:3000/users
+
+### get particular user
+GET http://localhost:3000/user/clui06q4r0000naughrovdch1
+
+
+### add a user
+POST http://localhost:3000/create-user
+Content-Type: application/json
+
+{
+    "name":"rajeev kumar",
+    "email":"rajeev@gmail.com",
+    "phone":"9876543210"
+}
+
+### update a user
+PUT http://localhost:3000/user/clui06q4r0000naughrovdch1
+Content-Type: application/json
+
+{
+    "name":"Rajeev Kumar"
+}
+
+### delete a user
+DELETE  http://localhost:3000/user/clui06voc0001naugb1gbcu7f
